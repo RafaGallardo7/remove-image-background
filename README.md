@@ -8,11 +8,12 @@
 ```python3 -m flask run```
 
 ### Firstly, we upload an image located on out local computer
-![Screenshot](img1.png)
+<!-- ![Screenshot](img1.png) -->
+<img src="img1.png" height="400" width="auto">
 
 ### Secondly, we remove the background
-![Screenshot](img1.png)
+<img src="img2.png" height="400" width="auto">
 
 ### Then, we get the image without the background
-![Screenshot](img1.png)
+<img src="img3.png" height="400" width="auto">
 
