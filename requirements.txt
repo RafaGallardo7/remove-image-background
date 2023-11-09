@@ -1,0 +1,13 @@
+Flask==3.0.0
+torchvision==0.16.0
+# PIL==10.1.0
+torch==2.1.0
+scikit-image==0.22.0
+Pillow==10.0.1
+numpy==1.26.1
+pandas==2.0.3
+openai==0.28.1
+requests==2.31.0
+setuptools==68.2.2
+matplotlib==3.8.0
+opencv-python==4.8.1.78

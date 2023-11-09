@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneProTech</title>
+    <style>        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }        
+    </style>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>OneProTech</h1>
+    </header>
+
+    <main>
+        <!-- Your main content goes here -->        
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>Footer Content</p>
+        <a target="_blank" href="http://oneprotech.com">OneProTech</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="container" style="padding-top:50px; padding-bottom:100px;">
+    <div class="row">
+      <div class="col-md-12 mx-auto" style="text-align: center;">
+        <h1 style="padding-bottom:30px;">Remove Background</h1>        
+        <img id="previewImage" src="{{url_for('static', filename=image_upload)}}" alt="your image" style="height: 300px; width: auto; padding-bottom: 10px;"/>
+        <form action="/remove" method="post" enctype="multipart/form-data" class="mx-auto" style="text-align: center;">            
+            <input class="btn btn-primary" type="submit" value="Remove Background">
+        </form>        
+      </div>    
+    </div>    
+  </div>
+{% endblock %}
+

@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="container" style="padding-top:50px; padding-bottom:100px;">
+    <div class="row">
+      <div class="col-md-12 mx-auto" style="text-align: center;">
+        <h1 style="padding-bottom:30px;">Success!</h1>        
+        <img id="bgRemoved" src="{{url_for('static', filename=bgRemoved)}}" alt="your image" style="height: 300px; width: auto; padding-bottom: 10px;"/>                
+        <br/> 
+        <a href="/upload-image" class="btn btn-primary">Nueva Imagen</a>
+      </div>        
+    </div>    
+  </div>
+
+{% endblock %}
+
